@@ -1,0 +1,238 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family:font_gotham_regular;
+    src:url('/assets/font/gothamhtf-book-webfont.ttf') format('truetype'),
+    url('/assets/font/gothamhtf-book-webfont.eot#iefix') format('embedded-opentype'),
+    url('/assets/font/gothamhtf-book-webfont.woff') format('woff');
+    font-weight:normal;
+    font-style:normal;
+}
+
+@font-face {
+    font-family:font_gotham_bold;
+    src:url('/assets/font/gothamhtf-bold-webfont.ttf') format('truetype'),
+    url('/assets/font/gothamhtf-bold-webfont.eot#iefix') format('embedded-opentype'),
+    url('/assets/font/gothamhtf-bold-webfont.woff') format('woff');
+    font-weight:bold;
+    font-style:normal;
+}
+
+h1 {
+    text-align: center;
+}
+
+ul li a {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+ul li a:hover {
+    color: red;
+}
+
+#header {
+    position: relative;
+    padding-top: 60%;
+    background: url('/assets/img/pic1.jpg') top center / cover no-repeat;
+    
+    
+}
+
+#header .text-header {
+    display: flex;
+    position: absolute;
+    bottom: 200px;
+    width: 100%;
+    
+}
+
+#header .text-heading {
+    margin-left: 150px;
+    margin-top: 200px;
+    font-family:font_gotham_bold;
+    letter-spacing: 12px;
+    font-size: 700;
+}
+
+
+
+#header .text-list-heading li a {
+    
+    text-decoration: none;
+    list-style: none;
+    margin-left: 100px;
+    text-transform: uppercase;
+    color: #000;
+    font-family:font_gotham_regular;
+    line-height: 40px;
+}
+
+#header .text-list-heading li a:hover {
+    color: red;
+}
+
+#content {
+    display: flex;
+    height: 140vh;
+    color: #fff;
+    font-family:font_gotham_bold;
+    
+}
+
+#content .content1 {
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    display: flex;
+    background-size: 100% 100%;
+    background: url('/assets/img/pic2.jpg') top center / cover no-repeat;
+    
+    
+}
+
+#content .content2 {
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    display: flex;
+    background-size: 100% 100%;
+    background: url('/assets/img/pic3.jpg') top center / cover no-repeat;
+}
+
+.content3 {
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-family: font_gotham_regular;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+#last-content {
+    display: flex;
+}
+
+#last-content .last {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+
+#footer {
+    
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+#footer .social-contact {
+    display: flex;
+    
+}
+
+#footer .social-contact .social {
+    
+    text-transform: uppercase;
+    font-family:font_gotham_bold;
+}
+
+#footer .social-contact .social .social-input {
+    border: 1px solid black;
+    width: 350px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+#footer .social-contact .social .social-button {
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    font-family:font_gotham_bold;
+    border: 1px solid black;
+}
+
+#footer .social-contact .social .social-button:hover {
+    color: red;
+    text-decoration: under-line;
+    cursor: pointer;
+}
+
+.contact-logo {
+    display: flex;
+    padding-left: 10px;
+    margin-top: 15px;
+    list-style: none;
+}
+
+.contact-logo-link {
+    font-size: 2rem;
+    color: black;
+    margin-right: 30px;
+}
+
+.contact-logo-link:hover {
+    color: red;
+}
+
+#footer .social-contact .contact {
+    margin-left: 500px;
+    
+}
+
+
+.contact-menu {
+    text-transform: uppercase;
+    font-family:font_gotham_bold;
+    
+}
+
+.menu {
+    list-style: none;
+}
+
+.menu-link {
+    display: block;
+    color: black;
+    font-family: font_gotham_regular;
+    
+
+}
+
+
+.about {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    list-style-type: none;
+}
+
+.about-list {
+    position: relative;
+    border-right: 1px solid #aaa;
+}
+
+.about-list-link {
+    color: var(--text-color);
+    text-decoration: none;
+    font-family: font_gotham_regular;
+    padding: 40px 10px;
+    font-size: 0.7rem;
+}
+
+.about-list-link:hover {
+    color: red;
+}
+
+.about-list:last-child {
+    border-right: none;
+
+}
